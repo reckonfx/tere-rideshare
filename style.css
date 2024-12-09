@@ -1,0 +1,545 @@
+@font-face {
+    font-family: gilory;
+    src: url(./assets/fonts/Gilroy-Light.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: gilory;
+}
+.main{
+    width: 100%;
+    margin: 30px;
+   
+    
+    
+}
+/* =========================Navigation Section========================================= */
+.navigation{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    padding: 0 20px;
+    width: 100%;
+    height: 174px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.logo{
+    width: 180px;
+    height:51px ;
+    margin: 20px 400px 0 0;
+    color: #75BF7A;
+    
+
+}
+.anchors{
+    display:flex;
+    justify-content: space-between;
+    width: 40%;
+    
+}
+.anchors a{
+    display: flex;
+    gap:30px;
+    justify-content: space-between;
+    margin: 20px;
+    height: 21px;
+    font-size: 17.17px;
+    font-weight: 500;
+    line-height: 20.82px;
+    text-decoration: none;
+    
+    
+}
+.anchors button{
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+background-color: #75BF7A;
+border-radius: 6px;
+padding: 20px;
+color: white;
+width: 182px;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.anchors a button:hover{
+    background-color: #75BF7A;
+    border:2px solid  #75BF7A;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #75BF7A;
+}
+/* ==========================Banner Section==================================== */
+.bannerSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: calc(100vh - 60px);
+    /* background-color: aqua; */
+   
+}
+.bannerSection .col1{
+    /* flex: 1; */
+    width: 40%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.bannerSection .col1 h1{
+    font-size: 61px;
+    font-weight: bold;
+    line-height: 66px;
+}
+.bannerSection .col1 p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    width: 550px;
+    height: 120px;
+}
+.bannerSection .buttonImage{
+ width: 260px;
+ height: 67px;
+ display: flex;
+ gap: 20px;
+ align-items: center;
+ justify-content: start;
+}
+.bannerSection .col2{
+    /* flex:1; */
+    /* background-color: red; */
+    width: 40%;
+}
+.apply{
+    background-color: #75BF7A;
+    width: 1280px;
+    height: 166px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin-left: 80px;
+}
+.apply h3{
+width: 246px;
+height: 56px;
+font-size: 25px;
+font-weight: 600;
+color: #ffffff;
+line-height: 28px;
+}
+.apply .form input{
+    width: 499px;
+    height: 67px;
+    font-size: 20px;
+    font-weight: 600;
+    color:#DADADA;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* padding: 20px; */
+        
+}
+.apply button{
+    width: 260px;
+    height: 67px;
+    background-color: #000000;
+    color: #ffff;
+    font-size: 22px;
+    font-weight: 800;
+
+}
+/*                      ------------how tere works section-------------- */
+.howTereWorks{
+    text-align: center;
+}
+.howTereWorks  h1{
+    width: 410px;
+    height: 51px;
+     margin-left: 518px;
+     margin-top: 30px;
+     font-size: 47px;
+     font-weight: 800;
+     line-height: 51px;
+}
+.howTereWorks h1 span{
+    color: #75BF7A;
+
+}
+.howTereWorks p{
+    width: 620px;
+    height: 96px;
+    margin-left: 410px;
+     font-size: 23px;
+     font-weight: 500;
+     line-height: 26px;
+     margin-top: 30px;
+}
+/* ========================steps Section */
+.steps{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+   
+    
+
+
+}
+.steps .col1{
+    display:flex;
+    flex-direction: column;
+    
+   
+    
+}
+.steps .col1 .step1 .number{
+    font-size: 34.11px;
+    line-height: 37.02px;
+    color: #75BF7A;
+    font-weight: 800;
+    position: relative;
+    
+    /* left: 442px; */
+}
+.steps .col1 .step1 .number .number1{
+    height: 38px;
+    width: 14px;
+    position: absolute;
+    left: 445px;
+    bottom: 18px;
+    line-height: 37px;
+    font-size: 39px;
+    color: #75BF7A;
+    font-weight: 800;
+    position: absolute;
+   
+}
+.steps .col1 .step1 img , .col1 .step3 img{
+    margin-left: 419px;
+    margin-top: 50px;
+   
+}
+.steps .col1 .step1 h4,.step3 h4{
+    height: 166px;
+    height: 66px;
+    margin-left: 314px;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 51px;
+    text-align: right;
+}
+.step3{
+    position: relative;
+}
+.step3 .number3{
+    line-height: 37px;
+    font-size: 39px;
+    color: #75BF7A;
+    font-weight: 800;
+    position: absolute;
+    top: 65px;
+    right: 22px;
+}
+.steps .col1 .step1 h5, .col1 .step3 h5{
+    width: 290px;
+    height: 91px;
+    margin-left: 190px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: right;
+    color:#9E9DA2;
+    
+}
+.steps .col1 .step3 h4{
+    margin-left: 230px;
+}
+.steps .col2 {
+   
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.steps .col2 .circle{
+    background-color: #75BF7A;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+   
+}
+
+.steps .col3{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: flex-start;
+ /* width: 33%; */
+ 
+ display: flex;
+ height: 550px;
+
+ 
+ 
+}
+.col3 .step2 img, .col3 .step4 img{
+    width: 60px;
+    height: 60px;
+    color: #75BF7A;
+    margin-top: 50px;
+    
+}
+.col3 .step2{
+    position: relative;
+}
+.col3 .step2 .number2 p{
+    line-height: 37px;
+    font-size: 39px;
+    color: #75BF7A;
+    font-weight: 800;
+    position: absolute;
+    top: 63px;
+    right: 250px;
+}
+.col3 .step2 h4 {
+    width: 127px;
+    height: 51px;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 51px;
+    color: black;
+   
+   
+}
+.col3 .step4{
+    position: relative;
+}
+.col3 .step4 .number4{
+    line-height: 37px;
+    font-size: 39px;
+    color: #75BF7A;
+    font-weight: 800;
+    position: absolute;
+    top: 63px;
+    right: 250px;
+    
+}
+.col3 .step4 h4{
+    width: 206px;
+    height: 51px;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 51px;
+
+}
+ .col3 .step2 h5,.col3 .step4 h5 {
+    width: 290px;
+    height: 91px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #9E9DA2;
+   
+}
+.dots{
+    margin-left: 668px;
+}
+.tereBenifits h1{
+    width:315px ;
+    height:51px ;
+    margin-left: 550px;
+    margin-top: 50px;
+    font-size: 47px;
+    font-weight: bolder;
+    line-height: 51px;
+    color: #75BF7A;
+    z-index: 2;
+
+}
+.tereBenifits h1 span{
+    color: #000000;
+}
+.tereBenifitsNum1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1060px;
+    height: 304px;
+    margin: 50px 0 50px 145px;
+    border-radius: 10px;
+    /* background-color: #5ea605; */
+    box-shadow: 3px 3px 10px grey;
+}
+.tereBenifitsNum1 .col1{
+    width: 45%;
+}
+.tereBenifitsNum1 .col1 h1 {
+ flex: 1;
+ height: 119px;
+ font-size: 68px;
+ font-weight: 900;
+ line-height: 120px;
+ color: #75BF7A;  
+ /* background-color: yellow; */
+ /* width: 50%; */
+
+}
+.tereBenifitsNum1 .col1 h1 span  {
+    /* width: 100%; */
+    /* height: 65px; */
+    font-size: 34px;
+    font-weight: 600;
+    color: #000000;
+    /* background-color: aqua; */
+
+}
+.tereBenifitsNum1 .col1 h4{
+    /* margin-top: 30px; */
+    padding: 20px;
+    /* background-color: red; */
+}
+.tereBenifitsNum1 .col2 img{
+    margin: 20px;
+}
+.tereBenifitsNum2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 1060px;
+    height: 200px;
+    margin: 20px 0 0 230px;
+    border-radius: 10px;
+  
+    box-shadow: 3px 3px 10px grey;
+    padding: 50px;
+    z-index: 3;
+   
+}
+.tereBenifitsNum2 .col1 img {
+    padding-bottom: 30px;
+    width: 248px;
+    height: 227px;
+
+}
+.tereBenifitsNum2 .col2{
+    width: 45%;
+   text-align: center;
+}
+.tereBenifitsNum2 .col2 h1{
+    flex: 1;
+ height: 119px;
+ font-size: 88px;
+ font-weight: 800;
+ line-height: 120px;
+ color: #75BF7A; 
+}
+.tereBenifitsNum2 .col2 span{
+    font-size: 34px;
+    font-weight: 600;
+    color: #000000;
+}
+.tereBenifitsNum2 .col2 h4{
+    padding: 20px;
+    text-align: left;
+    width: 387px;
+    height: 47px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 23px;
+    margin-left: 100px;
+}
+
+.tereBenifitsNum3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1060px;
+    height: 304px;
+    margin: 50px 0 50px 145px;
+    border-radius: 10px;
+    /* background-color: #5ea605; */
+    box-shadow: 3px 3px 10px grey;
+    position: relative;
+    z-index: 3;
+    /* opacity: 1; */
+}
+.tereBenifitsNum3 .col1{
+    width: 45%;
+}
+.tereBenifitsNum3 .col1 h1 {
+ flex: 1;
+ height: 119px;
+ font-size: 68px;
+ font-weight: 900;
+ line-height: 120px;
+ color: #75BF7A;  
+ /* background-color: yellow; */
+ /* width: 50%; */
+
+}
+.tereBenifitsNum3 .col1 h1 span  {
+    /* width: 100%; */
+    /* height: 65px; */
+    font-size: 34px;
+    font-weight: 600;
+    color: #000000;
+    /* background-color: aqua; */
+
+}
+.tereBenifitsNum3 .col1 h4{
+    /* margin-top: 30px; */
+    padding: 20px;
+    /* background-color: red; */
+}
+.tereBenifitsNum3 .col2 img{
+    margin: 20px;
+    
+}
+
+.imageContainer{
+    
+
+    position: absolute;
+    top: -38px;
+    right: 216px;
+    width: 100%;
+    height: 380px;
+    z-index: 1;
+    background-image: url(./assets/images/background_mobile.png);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: contain;
+    background-clip: padding-box;
+    opacity: 0.8; */
+}
+.tereBenifitsNum3 .imageContainer img{
+    height: 560px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin: 200px 30px 50px 200px;
+}
+
+h6{
+    text-align: center;
+    margin-bottom: 100px;
+    color:#75BF7A;
+}
